@@ -7,7 +7,7 @@ class BubbleSort : SoringAlgorithm<MutableList<Int>> {
         println("Bubble Sort is Starting \n" +
                 "※ Worst case performance O(n^2) \n" +
                 "※ Best case performance O(n) \n" +
-                "※ Average case performance O(n^2)")
+                "※ Average case performance O(n^2)\n")
 
     }
     override fun sort(arr: MutableList<Int>) {
