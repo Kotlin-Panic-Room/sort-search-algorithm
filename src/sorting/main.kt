@@ -11,4 +11,6 @@ fun main(){
     SelectionSort().sort(selectionSortArr)
     val bubbleSortArr = arr.toMutableList()
     BubbleSort().sort(bubbleSortArr)
+    val shellSortArr = arr.toMutableList()
+    ShellSort().sort(shellSortArr)
 }
