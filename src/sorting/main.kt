@@ -15,4 +15,6 @@ fun main(){
     ShellSort().sort(shellSortArr)
     val mergeSortArr = arr.toMutableList()
     MergeSort().sort(mergeSortArr)
+    val quickSortArr = arr.toMutableList()
+    QuickSort().sort(quickSortArr)
 }
