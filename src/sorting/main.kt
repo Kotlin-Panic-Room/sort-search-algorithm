@@ -13,4 +13,6 @@ fun main(){
     BubbleSort().sort(bubbleSortArr)
     val shellSortArr = arr.toMutableList()
     ShellSort().sort(shellSortArr)
+    val mergeSortArr = arr.toMutableList()
+    MergeSort().sort(mergeSortArr)
 }
