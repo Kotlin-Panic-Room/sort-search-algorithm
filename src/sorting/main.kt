@@ -9,4 +9,6 @@ fun main(){
     InsertionSort().sort(insertionSortArr)
     val selectionSortArr = arr.toMutableList()
     SelectionSort().sort(selectionSortArr)
+    val bubbleSortArr = arr.toMutableList()
+    BubbleSort().sort(bubbleSortArr)
 }
