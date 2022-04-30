@@ -5,11 +5,10 @@ import extention.swap
 
 class InsertionSort: SoringAlgorithm<MutableList<Int>> {
     init {
-        println("Bubble Sort is Starting \n" +
+        println("Insertion Sort is Starting \n" +
                 "※ Worst case performance O(n^2) \n" +
                 "※ Best case performance O(n) \n" +
                 "※ Average case performance O(n^2)")
-
     }
 
     override fun sort(arr: MutableList<Int>) {
