@@ -16,12 +16,12 @@ class MergeSort : SoringAlgorithm<MutableList<Int>> {
 
         val middleIndex = arr.size / 2
         // 배열 반갈죽
-        val leftArr = MutableList(middleIndex){0}
+        val leftArr = MutableList(middleIndex) { 0 }
         leftArr.forEachIndexed { index, _ ->
             leftArr[index] = arr[index]
         }
 
-        val rightArr = MutableList(arr.size - middleIndex){0}
+        val rightArr = MutableList(arr.size - middleIndex) { 0 }
         rightArr.forEachIndexed { index, _ ->
             rightArr[index] = arr[index + middleIndex]
         }
