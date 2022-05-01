@@ -17,4 +17,6 @@ fun main(){
     MergeSort().sort(mergeSortArr)
     val quickSortArr = arr.toMutableList()
     QuickSort().sort(quickSortArr)
+    val heapSortArr = arr.toMutableList()
+    HeapSort().sort(heapSortArr)
 }
